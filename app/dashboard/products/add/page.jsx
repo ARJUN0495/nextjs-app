@@ -6,7 +6,7 @@ const AddProductPage = () => {
     <div className={styles.container}>
       <form action="" className={styles.form}>
         <Image
-          src={"/noavatar.png"}
+          src="/user.webp"
           alt=""
           width={"100"}
           height={40}

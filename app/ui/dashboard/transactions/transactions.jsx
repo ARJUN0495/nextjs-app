@@ -48,7 +48,7 @@ const Transactions = () => {
               <td>
                 <div className={styles.user}>
                   <Image
-                    src="/noavatar.png"
+                    src="/user.webp"
                     alt=""
                     width={40}
                     height={40}
