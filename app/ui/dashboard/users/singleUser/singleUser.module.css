@@ -1,7 +1,13 @@
 .container {
   display: flex;
-  gap: 50px;
+  gap: 24px;
   margin-top: 20px;
+  flex-direction: column;
+}
+
+.contentWrapper {
+  display: flex;
+  gap: 32px;
 }
 
 .infoContainer {
@@ -14,7 +20,7 @@
   height: max-content;
 }
 
-.imgContainer{
+.imgContainer {
   width: 100%;
   height: 300px;
   position: relative;
@@ -30,12 +36,14 @@
   border-radius: 10px;
 }
 
-.form{
+.form {
   display: flex;
   flex-direction: column;
 }
 
-.form input, .form textarea, .form select{
+.form input,
+.form textarea,
+.form select {
   padding: 20px;
   border: 2px solid #2e374a;
   border-radius: 5px;
@@ -44,17 +52,40 @@
   margin: 10px 0px;
 }
 
-.form label{
+.form label {
   font-size: 12px;
 }
 
-.form button{
+.form button {
   width: 100%;
   padding: 20px;
-  background-color: teal;
+  background-color: #ffbd03;
   color: var(--text);
   border: none;
   border-radius: 5px;
   cursor: pointer;
   margin-top: 20px;
+}
+
+.backButton {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  color: #333333;
+  border: 2px solid #333333;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.backButton:hover {
+  background-color: var(--bgSoft);
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.backButton svg {
+  margin-right: 5px;
 }

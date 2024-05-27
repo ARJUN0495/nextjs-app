@@ -12,8 +12,7 @@
 }
 
 .form input,
-.form textarea,
-.form select {
+.form textarea {
   padding: 30px;
   background-color: var(--bg);
   color: var(--text);
@@ -22,18 +21,18 @@
   margin-bottom: 30px;
 }
 
-.form input, .form select {
-  width: 45%;
-}
-
-.form textarea{
+.form input {
   width: 100%;
 }
 
-.form button{
+.form textarea {
+  width: 100%;
+}
+
+.form button {
   width: 100%;
   padding: 30px;
-  background-color: teal;
+  background-color: #5783db;
   color: var(--text);
   border: none;
   border-radius: 5px;

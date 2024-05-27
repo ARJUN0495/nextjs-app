@@ -24,17 +24,17 @@ const menuItems = [
         icon: <MdDashboard />,
       },
       {
-        title: "Users",
+        title: "UsersInfo",
         path: "/dashboard/users",
         icon: <MdSupervisedUserCircle />,
       },
       {
-        title: "Products",
+        title: "ProductsInfo",
         path: "/dashboard/products",
         icon: <MdShoppingBag />,
       },
       {
-        title: "Transactions",
+        title: "SalesInfo",
         path: "/dashboard/transactions",
         icon: <MdAttachMoney />,
       },
@@ -44,12 +44,12 @@ const menuItems = [
     title: "Analytics",
     list: [
       {
-        title: "Revenue",
+        title: "Budjet",
         path: "/dashboard/revenue",
         icon: <MdWork />,
       },
       {
-        title: "Reports",
+        title: "Accounts",
         path: "/dashboard/reports",
         icon: <MdAnalytics />,
       },
@@ -83,14 +83,14 @@ const Sidebar = async () => {
       <div className={styles.user}>
         <Image
           className={styles.userImage}
-          src={"/noavatar.png"}
+          src={"/user.webp"}
           alt=""
           width="50"
           height="50"
         />
         <div className={styles.userDetail}>
           <span className={styles.username}>Arjun</span>
-          <span className={styles.userTitle}>Developer</span>
+          <span className={styles.userTitle}>Front End Developer</span>
         </div>
       </div>
       <ul className={styles.list}>

@@ -4,7 +4,8 @@
 
 .menu {
   flex: 1;
-  background-color: var(--bgSoft);
+  background-color: white;
+  color: black;
   padding: 20px;
   min-height: 100vh;
 }

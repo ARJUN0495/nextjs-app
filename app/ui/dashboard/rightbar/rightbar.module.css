@@ -7,15 +7,6 @@
   padding: 20px 24px;
   border-radius: 10px;
   margin-bottom: 20px;
-  position: relative;
-}
-
-.bgContainer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 50%;
-  height: 50%;
 }
 
 .bg {
@@ -31,12 +22,6 @@
 
 .notification {
   font-weight: bold;
-}
-
-.subtitle {
-  color: var(--textSoft);
-  font-weight: 500;
-  font-size: 12px;
 }
 
 .desc {
