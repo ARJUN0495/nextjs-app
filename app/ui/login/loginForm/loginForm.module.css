@@ -29,3 +29,21 @@
   cursor: pointer;
   border-radius: 5px;
 }
+
+.hint {
+  margin-top: 20px;
+  font-size: 14px;
+  color: var(--text);
+  width: 100%;
+}
+
+.hint ul {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+}
+
+.hint li {
+  margin: 5px 0;
+}
